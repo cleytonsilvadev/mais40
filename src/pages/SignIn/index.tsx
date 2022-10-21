@@ -22,9 +22,7 @@ export default function Home() {
             <form className={styles.loginForm}>
                 <span className={styles.loginFormTitle}> Bem-vindo! </span>
 
-                <span className={styles.loginFormTitle}>
-                <Image src="" className={styles.imagem} alt="+40 Programador" />
-                </span>
+                
 
                 <div className={styles.wrapInput}>
                 <input
@@ -53,9 +51,9 @@ export default function Home() {
                 </div>
 
                 <div className={styles.containerLoginFormBtn}>
-                <Link href="/Dashboard" className={styles.loginFormBtn}>
+                <a href="/Dashboard" className={styles.loginFormBtn}>
                     Login
-                </Link>
+                </a>
                 </div>
 
                 <div className={styles.textCenter}>
